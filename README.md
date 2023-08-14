@@ -18,6 +18,8 @@ after this is done, go to the .env file and switch the string with your Token
 
 <h1>What can the bot do?</h1>
 
+The bot can give you a dice roll of any side (yes, even a 1 sided dice if you so wish to), search all the monsters moves/attacks by name and see their description/properties, get a move name from its description/properties, manage an inventory and facilitate the calculation of experience points to give out after a battle.
+
 <h2>€roll</h2>
 
 Use "€roll + pvt + number" for a dm or "€roll + number" for a response on the channel, then the bot will give you a random number between 1 and the number you chose
