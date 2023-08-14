@@ -283,6 +283,7 @@ def run_disc_bot():
         
         else: await message.channel.send("invalid format, write \"€give + @user + itemName + amount\" (ex.: \"give @AlbertinoDias rope 5\", to add 5 ropes, and item with multiple words need to be inside quotes, ex.: \"max revive\")")
     
+    #change "YDias" and this command will work only with users that have the role you type
     @commands.has_role("Dias")
     @bot_commands.command()
     async def wipe(message, name):
